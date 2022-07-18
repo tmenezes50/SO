@@ -1,4 +1,5 @@
-make.exe: Entering directory 'c:/Users/thiag/Desktop/SO'
-gcc -o executavel estrutura.c biblioteca.c main.c -pt
-make.exe: Leaving directory 'c:/Users/thiag/Desktop/SO'
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/hot/Área de Trabalho/SO'
+gcc -o main biblioteca.c estrutura.c main.c -pthread -lm -mcmodel=medium -g -Werror
+make: Leaving directory '/home/hot/Área de Trabalho/SO'
  

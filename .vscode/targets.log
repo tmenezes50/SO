@@ -1,205 +1,259 @@
-make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
-# GNU Make 3.82.90
-# Built for i686-pc-mingw32
-# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
- 
 
-# Make data base, printed on Tue Jul 05 16:43:49 2022
+# Make data base, printed on Tue Jun 21 20:21:05 2022
 
 # Variables
 
-# automatic
-<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
-# automatic
-?F = $(notdir $?)
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-d7632a1b-0a6d-4b64-841c-d46934bb9828.sock
+# environment
+VSCODE_CWD = /home/hot
+# environment
+WINDOWPATH = 2
 # default
-.SHELLFLAGS := -c
-# makefile
-MAKEFLAGS = Rrqp
+MAKE_COMMAND := make
 # environment
-VSCODE_LOG_NATIVE = false
+QT_ACCESSIBILITY = 1
 # automatic
-?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
-# automatic
-@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+@D = $(patsubst %/,%,$(dir $@))
 # environment
-HOMEDRIVE = C:
-# automatic
-@F = $(notdir $@)
-# automatic
-^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
-# makefile
-CURDIR := c:/Users/thiag/Desktop/SO
+SNAP_INSTANCE_NAME = code
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/99/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
-SHELL := sh.exe
+.VARIABLES := 
 # environment
-WINDIR = C:\Windows
+PWD = /home/hot/Área de Trabalho/SO
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
 # environment
-VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"195456cb6bc5e7dd989215cd334fb359.pt-br","_translationsConfigFile":"C:\\Users\\thiag\\AppData\\Roaming\\Code\\clp\\195456cb6bc5e7dd989215cd334fb359.pt-br\\tcf.json","_cacheRoot":"C:\\Users\\thiag\\AppData\\Roaming\\Code\\clp\\195456cb6bc5e7dd989215cd334fb359.pt-br","_resolvedLanguagePackCoreLocation":"C:\\Users\\ 
-thiag\\AppData\\Roaming\\Code\\clp\\195456cb6bc5e7dd989215cd334fb359.pt-br\\30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"C:\\Users\\thiag\\AppData\\Roaming\\Code\\clp\\195456cb6bc5e7dd989215cd334fb359.pt-br\\corrupted.info","_languagePackSupport":true}
-# environment
-ONEDRIVE = C:\Users\thiag\OneDrive
-# environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
-# makefile (from 'Makefile', line 1)
-MAKEFILE_LIST :=  Makefile
-# environment
-FPS_BROWSER_USER_PROFILE_STRING = Default
-# environment
-TMP = C:\Users\thiag\AppData\Local\Temp
-# environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-PROGRAMW6432 = C:\Program Files
-# environment
-PROGRAMDATA = C:\ProgramData
-# environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-c848935e-b6bc-4bda-a9d0-711fc5adc61d-sock
-# environment
-VSCODE_CWD = C:\Users\thiag\AppData\Local\Programs\Microsoft VS Code
-# environment
-PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs\;C:\MinGW\bin;C:\Users\thiag\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nodejs;C:\Users\thiag\AppData\Roaming\npm
-# environment
-COMMONPROGRAMW6432 = C:\Program Files\Common Files
-# environment
-PROCESSOR_ARCHITECTURE = x86
-# environment
-USERPROFILE = C:\Users\thiag
-# environment
-ALLUSERSPROFILE = C:\ProgramData
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
 # environment
 VSCODE_LOG_STACK = false
-# environment
-NUMBER_OF_PROCESSORS = 4
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# environment
-MINGW_HOME = C:\MinGW
-# default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_13828_ONOWPEXCSNKGNZJQ
+VSCODE_CODE_CACHE_PATH = /home/hot/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/hot/Área de Trabalho/SO
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-COMPUTERNAME = DESKTOP-ODNIQO7
-# environment
-PROGRAMFILES = C:\Program Files (x86)
-# environment
-DRIVERDATA = C:\Windows\System32\Drivers\DriverData
-# environment
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
-# environment
-USERNAME = thiag
-# environment
-PUBLIC = C:\Users\Public
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
-# environment
-VSCODE_CODE_CACHE_PATH = C:\Users\thiag\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
-# environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
-COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+LESSOPEN = | /usr/bin/lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
 # environment
-LOGONSERVER = \\DESKTOP-ODNIQO7
+MFLAGS = -pqrR
 # environment
-ONEDRIVECONSUMER = C:\Users\thiag\OneDrive
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
 # environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
 # environment
-USERDOMAIN = DESKTOP-ODNIQO7
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# environment
+SNAP_REEXEC = 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 20830
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+SESSION_MANAGER = local/hot-System-Product-Name:@/tmp/.ICE-unix/1461,unix/hot-System-Product-Name:/tmp/.ICE-unix/1461
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"195456cb6bc5e7dd989215cd334fb359.pt-br","_translationsConfigFile":"/home/hot/.config/Code/clp/195456cb6bc5e7dd989215cd334fb359.pt-br/tcf.json","_cacheRoot":"/home/hot/.config/Code/clp/195456cb6bc5e7dd989215cd334fb359.pt-br","_resolvedLanguagePackCoreLocation":"/home/hot/.config/Code/clp/195456cb6bc5e7dd989215cd334fb359.pt-br/30d9c6cd9483b2cc586687151bcbcd635f373630","_corruptedFile":"/home/hot/.config/Code/clp/195456cb6bc5e7dd989215cd334fb359.pt-br/corrupted.info","_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
 # environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = zkxMAqQ2RIyv5MxRBxR_Ork6dGLINDraIAZCH4kojg4tg-qr8wmj
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 # default
-MAKECMDGOALS := all
-# default
-MAKE_VERSION := 3.82.90
-# makefile
-.DEFAULT_GOAL := all
+MAKEFILES := 
 # environment
-PROGRAMFILES(X86) = C:\Program Files (x86)
+LANGUAGE = pt_BR:pt:en
 # automatic
-%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+^F = $(notdir $^)
 # environment
-LOCALAPPDATA = C:\Users\thiag\AppData\Local
+SNAP_USER_COMMON = /home/hot/snap/code/common
 # environment
-PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
-# default
-MAKE_COMMAND := make.exe
+SNAP = /snap/code/99
 # environment
-PROCESSOR_ARCHITEW6432 = AMD64
-# default
-.VARIABLES := 
+INVOCATION_ID = 61b7eda6e0174d6c99439e5cf0adea34
+# environment
+SNAP_REVISION = 99
+# environment
+SNAP_REAL_HOME = /home/hot
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = hot
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
 # automatic
-*F = $(notdir $*)
+?F = $(notdir $?)
 # environment
-PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
+XDG_CURRENT_DESKTOP = Unity
 # environment
-OS = Windows_NT
-# environment
-VSCODE_IPC_HOOK = \\.\pipe\2847dab3d67b2c1df7b30dc97473a91f-1.68.1-main-sock
-# environment
-HOMEPATH = \Users\thiag
-# environment
-COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
-# environment
-PROMPT = $P$G
-# environment
-MFLAGS = -Rrqp
-# automatic
-*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
-# environment
-SYSTEMROOT = C:\Windows
-# automatic
-+D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+LS_COLORS = 
 # automatic
 +F = $(notdir $+)
 # environment
-APPDATA = C:\Users\thiag\AppData\Roaming
+DESKTOP_SESSION = ubuntu
 # environment
-TEMP = C:\Users\thiag\AppData\Local\Temp
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
 # environment
-COMSPEC = C:\Windows\system32\cmd.exe
+LOGNAME = hot
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+SNAP_ARCH = amd64
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 1504
+# environment
+DISPLAY = :0
+# environment
+USER = hot
+# environment
+GTK_MODULES = gail:atk-bridge
 # default
-MAKEFILES := 
+MAKE_VERSION := 4.3
+# environment
+DISABLE_WAYLAND = 1
+# environment
+SNAP_DATA = /var/snap/code/99
+# environment
+SNAP_CONTEXT = zkxMAqQ2RIyv5MxRBxR_Ork6dGLINDraIAZCH4kojg4tg-qr8wmj
+# environment
+MANAGERPID = 1068
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 20731
+# environment
+_ = /snap/code/99/usr/share/code/code
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/hot/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+JOURNAL_STREAM = 8:26156
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/hot
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-d5f89df2-1.68.1-main.sock
+# environment
+SNAP_NAME = code
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/99/usr/share/glib-2.0/schemas
+# default
+.RECIPEPREFIX := 
 # automatic
 <F = $(notdir $<)
 # environment
-LC_ALL = C
-# automatic
-^F = $(notdir $^)
+SNAP_VERSION = 30d9c6cd
 # default
 SUFFIXES := 
 # environment
-SYSTEMDRIVE = C:
+VSCODE_CLI = 1
 # environment
-SESSIONNAME = Console
+ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
-PROCESSOR_REVISION = 9e09
+SNAP_COMMON = /var/snap/code/common
 # default
-.INCLUDE_DIRS = C:/MinGW/include
-# default
-.RECIPEPREFIX := 
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-LANG = C
+SNAP_USER_DATA = /home/hot/snap/code/99
 # environment
-PROCESSOR_LEVEL = 6
+XDG_MENU_PREFIX = gnome-
 # environment
-FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+GDMSESSION = ubuntu
 # environment
-VSCODE_PID = 13828
-# environment
-USERDOMAIN_ROAMINGPROFILE = DESKTOP-ODNIQO7
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=93/1024=9%, Rehash=0, Collisions=11/115=10%
+# Load=121/1024=12%, Rehash=0, Collisions=4/154=3%
 
 # Pattern-specific Variable Values
 
@@ -207,29 +261,29 @@ USERDOMAIN_ROAMINGPROFILE = DESKTOP-ODNIQO7
 
 # Directories
 
-# C:\Users\thiag\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/thiag/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1655760241): 4 files, no impossibilities.
-# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1642935795): 5 files, no impossibilities.
-# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1654904012): 31 files, no impossibilities.
-# . (key c:/Users/thiag/Desktop/SO, mtime 1657050228): 9 files, no impossibilities.
-# C:\Windows\System32\OpenSSH\: could not be stat'd.
-# C:\MinGW\bin (key C:/MinGW/bin, mtime 1655257557): 145 files, no impossibilities.
-# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporat 
-ion/PhysX/Common, mtime 1642936322): 10 files, no impossibilities.
-# C:\Windows (key C:/Windows, mtime 1656688329): 116 files, no impossibilities.
-# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1655303140): 171 files, no impossibilities.
-# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1643212969): 6 files, no impossibilities.
-# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1654909973): 13 files, no impossibilities.
-# C:\Users\thiag\AppData\Roaming\npm (key C:/Users/thiag/AppData/Roaming/npm, mtime 1654909970): 2 files, no impossibilities.
-# C:\Windows\system32 (key C:/Windows/system32, mtime 1657041104): 2935 files, no impossibilities.
-# C:\Program Files\nodejs (key C:/Program Files/nodejs, mtime 1654909973): 13 files, no impossibilities.
+# . (device 2052, inode 9306124): 10 files, no impossibilities.
 
-# 3460 files, no impossibilities in 14 directories.
+# 10 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
 # No implicit rules.
 
 # Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-21 18:53:11.716823507
+#  File has been updated.
+#  Successfully updated.
+
+ 
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 all:
 #  Command line target.
@@ -241,39 +295,26 @@ all:
 # automatic
 # @ := all
 # automatic
-# % := 
-# automatic
 # * := 
+# automatic
+# < := 
 # automatic
 # + := 
 # automatic
-# | := 
-# automatic
-# < := 
+# % := 
 # automatic
 # ^ := 
 # automatic
 # ? := 
+# automatic
+# | := 
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/11=9%
-#  recipe to execute (from 'Makefile', line 4):
-	gcc -o executavel estrutura.c biblioteca.c main.c -pt
+#  recipe to execute (from 'Makefile', line 2):
+	gcc -o main biblioteca.c estrutura.c main.c -pthread -lm -mcmodel=medium -g -Werror
 
 # Not a target:
 .SUFFIXES:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-Makefile:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-20 22:55:55
-#  File has been updated.
-#  Successfully updated.
-
-# Not a target:
-.DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -284,17 +325,14 @@ Makefile:
 
 # No 'vpath' search paths.
 
-# No  
-general ('VPATH' variable) search path.
+# No general ('VPATH' variable) search path.
 
-# strcache buffers: 7 (5) / strings = 3423 / storage = 51361 B / avg = 15 B
-# current buf: size = 8174 B / used = 2386 B / count = 173 / avg = 13 B
-# other used: total = 43187 B / count = 3250 / avg = 13 B
-# other free: total = 69 B / max = 18 B / min = 5 B / avg = 11 B
+# strcache buffers: 1 (0) / strings = 15 / storage = 139 B / avg = 9 B
+# current buf: size = 8162 B / used = 139 B / count = 15 / avg = 9 B
 
-# strcache performance: lookups = 3483 / hit rate = 1%
+# strcache performance: lookups = 22 / hit rate = 31%
 # hash-table stats:
-# Load=3423/8192=42%, Rehash=0, Collisions=1154/3483=33%
-# Finished Make data base on Tue Jul 05 16:43:49 2022
+# Load=15/8192=0%, Rehash=0, Collisions=0/22=0%
+# Finished Make data base on Tue Jun 21 20:21:05 2022
 
  

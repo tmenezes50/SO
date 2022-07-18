@@ -12,12 +12,11 @@ typedef struct posicao{
 typedef struct {
     posicao *inicio;
     posicao *fim;
-    int tamanho;
+    long tamanho;
 } lista;
 
-void inicializa (lista *lista);
-int ePrimo(int valor);
-int inserir(lista *lista, int x, int y, int primo);
+lista *inicializa ();
+int inserir(lista *plista, long x, long y, int primo);
 
 #endif
 

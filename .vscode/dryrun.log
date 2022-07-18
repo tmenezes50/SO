@@ -1,0 +1,4 @@
+make.exe: Entering directory 'c:/Users/thiag/Desktop/SO'
+gcc -o executavel estrutura.c biblioteca.c main.c -pt
+make.exe: Leaving directory 'c:/Users/thiag/Desktop/SO'
+ 
